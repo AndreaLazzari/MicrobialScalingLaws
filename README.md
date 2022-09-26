@@ -28,7 +28,7 @@ In the folder [analysis_real_data](./analysis_real_data) it is possible to find 
 ### Growth and division processes: general model 
 In our models we consider the evolution of a single non-interacting cell, which undergoes 2 processes:
 - **growth:** the cell size $x(t)$ evolves according to the following equation
-    $$ \dot{x}=g(x(t)) $$
+    $$ $\dot{x}=g(x(t)) $$
     $$ x(0)=x_b $$
     In some cases this relation can be expressed in vectorial form, where $\underline{x}$ is the vector of the traits characterizing the cell's state (see model 2). 
 - **division:** it is ruled by the _hazard rate function_ $h(x(t))$, which represents the istantaneous probability of the cell to divide. This function is related to the so called _survival function_ $s(t)$, by the relation
