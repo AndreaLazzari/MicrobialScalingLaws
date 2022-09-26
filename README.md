@@ -29,9 +29,7 @@ In the folder [analysis_real_data](./analysis_real_data) it is possible to find 
 In our models we consider the evolution of a single non-interacting cell, which undergoes 2 processes:
 - **growth:** the cell size $x(t)$ evolves according to the following equation
 
-$$ \dot{x}=g(x(t)) $$
-
-$$ x(0)=x_b $$
+$$ \dot{x}=g(x(t)) \quad , \quad x(0)=x_b $$
 
 In some cases this relation can be expressed in vectorial form, where $\underline{x}$ is the vector of the traits characterizing the cell's state (see model 2). 
 
