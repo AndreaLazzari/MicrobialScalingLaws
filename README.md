@@ -129,7 +129,7 @@ where $frac$ is the division ratio.
 For all models, the set of parameters to be inferred is 
 $$ \underline{\theta} = \{\mu, \nu, \omega_2, a, b, c, d\} $$
 
-Applying the Bayes theorem, we can write
+Applying the Bayes theorem, we can write 
 $$ f(\underline{\theta}|\tau, \omega_1, frac, M) \propto f(\tau, \omega_1, frac|\underline{\theta}, M)\cdot f(\underline{\theta}, M) $$
 
 where $M$ is the background information given by the selected model and $\tau$, $\omega_1$ and $frac$ are provided by the data.
