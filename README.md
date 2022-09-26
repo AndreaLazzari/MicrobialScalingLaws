@@ -120,7 +120,8 @@ $$
 $$
 
 and the division process occurs in the following way
-$$ (m,  p) \rightarrow (frac\cdot m, 0) + ((1-frac)\cdot m, 0)$$
+
+$$ \binom{m}{p} \rightarrow \binom{frac\cdot m}{0} + \binom{(1-frac)\cdot m}{0}$$
 
 where $frac$ is the division ratio.
 
