@@ -90,6 +90,7 @@ where $g(x)$ again corresponds to an exponential growth, while $h(x)$ is lower b
 **Notebook: [Model 2](./analysis_real_data/REAL_Model_2.ipynb)**
 
 The main difference between this model and the previous ones is that here we consider 2 traits: the cell size $m(t)$ and its protein content $p(t)$. We call $\underline{x}$ the vector
+
 $$ \underline{x} = (m, p) $$
 
 As before, the traits evolution and the cell division are governed by $g(\underline{x})$ and $h(p)$ respectively, which are defined as 
@@ -120,6 +121,7 @@ $$
 
 and the division process occurs in the following way
 $$ (m,  p) \rightarrow (frac\cdot m, 0) + ((1-frac)\cdot m, 0)$$
+
 where $frac$ is the division ratio.
 
 ### Bayesian Data Analysis
@@ -128,6 +130,7 @@ $$ \underline{\theta} = \{\mu, \nu, \omega_2, a, b, c, d\} $$
 
 Applying the Bayes theorem, we can write
 $$ f(\underline{\theta}|\tau, \omega_1, frac, M) \propto f(\tau, \omega_1, frac|\underline{\theta}, M)\cdot f(\underline{\theta}, M) $$
+
 where $M$ is the background information given by the selected model and $\tau$, $\omega_1$ and $frac$ are provided by the data.
 
 Regarding the likelihood, $f(\tau, \omega_1, frac|\underline{\theta})$, applying the chain rule and exploiting the fact that $frac$ and $\omega_1$ are independent, it can be written as the product of the conditional probability density function of each random variable of interest
