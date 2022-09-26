@@ -128,7 +128,7 @@ where $frac$ is the division ratio.
 ### Bayesian Data Analysis
 For all models, the set of parameters to be inferred is 
 
-$$ \underline{\theta} = { \mu, \nu, \omega_2, a, b, c, d } $$
+$$ \underline{\theta} = \text{ \mu, \nu, \omega_2, a, b, c, d \text} $$
 
 Applying the Bayes theorem, we can write 
 
