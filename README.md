@@ -75,7 +75,7 @@ Also in this case the processes considered are growth and division, governed by 
 
 $$
 \begin{align}
-g(x)&= \omega_1 x \\
+g(x)&= \omega_1 \cdot x \\
 h(x)&=
 \begin{cases}
     0  & , x<\mu \\
@@ -97,7 +97,7 @@ As before, the traits evolution and the cell division are governed by $g(\underl
 
 $$
 \begin{align}
-g(\underline{x})&=\omega_1m\cdot (1,c) \\
+g(\underline{x})&=\omega_1 \cdot m\cdot (1,c) \\
 h(p)&=
     \begin{cases}
     0   & , p<\mu \\
