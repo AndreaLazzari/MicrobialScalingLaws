@@ -40,6 +40,7 @@ $$ \frac{\dot{s}(t)}{s(t)}=-h(t) \quad , \quad s(0)=1 $$
 where $s(t)$ gives the probability that the cell will survive (meaning not divide in this case) past a certain time $t$.
 
 While the growth is a deterministic process, division is a stochastic event. Since division does not always divide the cell into two equal parts, we introduce a parameter $frac$, which is treated as a stpchastic variable, such that after the division
+
 $$ \underline{x}_{div} = \left(frac\cdot x, (1-frac)x\right)) $$
 
 Finally, we assume that the division ratios $frac$ are distributed according to a Beta function and that the growth rates $\omega_1$ follow a Gamma function, hence denoting by $f$ the probability density distribution we obtain
