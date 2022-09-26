@@ -91,13 +91,13 @@ where $g(x)$ again corresponds to an exponential growth, while $h(x)$ is lower b
 
 The main difference between this model and the previous ones is that here we consider 2 traits: the cell size $m(t)$ and its protein content $p(t)$. We call $\underline{x}$ the vector
 
-$$ \underline{x} = (m, p) $$
+$$ \underline{x} = \binom{m}{p} $$
 
 As before, the traits evolution and the cell division are governed by $g(\underline{x})$ and $h(p)$ respectively, which are defined as 
 
 $$
 \begin{align}
-g(\underline{x})&=\omega_1 \cdot m\cdot (1,c) \\
+g(\underline{x})&=\omega_1 \cdot m\cdot \binom{1}{c} \\
 h(p)&=
     \begin{cases}
     0   & , p<\mu \\
